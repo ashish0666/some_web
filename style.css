@@ -1,0 +1,63 @@
+body {
+    background-color: #a0b6cb;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+/* Centered main heading */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    background-color: aqua;
+}
+
+/* Subheadings */
+h2 {
+    color: #34495e;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+/* Styling <li> inside h2 (even if invalid) */
+h2 li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Custom tag <ol1> handling */
+ol1 {
+    display: block;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+ol1 p {
+    margin: 10px 0;
+}
+
+/* Bookmark links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #1c5980;
+    text-decoration: underline;
+}
+
+/* Table used as container */
+table {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Paragraphs inside table for secondary links */
+table p {
+    margin: 10px 0;
+}
+
